@@ -1,0 +1,12 @@
+<Context>
+    <Resource name="java:/comp/env/jdbc/customJNDI"
+              auth="Container"
+              type="javax.sql.DataSource"
+              maxTotal="20"
+              maxIdle="10"
+              maxWaitMillis="10000"
+              username="tu_usuario"
+              password="khrissDB"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/db_KhrissDB"/>
+</Context>
